@@ -120,7 +120,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CadastroController.cs" />
+    <Compile Include="Controllers\GraficoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OperacaoController.cs" />
+    <Compile Include="Controllers\RelatorioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -159,9 +163,27 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Sobre.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Cadastro\GrupoProdutos.cshtml" />
+    <Content Include="Views\Cadastro\MarcaProdutos.cshtml" />
+    <Content Include="Views\Cadastro\PerfisUsuarios.cshtml" />
+    <Content Include="Views\Cadastro\Fornecedores.cshtml" />
+    <Content Include="Views\Cadastro\Cidades.cshtml" />
+    <Content Include="Views\Cadastro\Estados.cshtml" />
+    <Content Include="Views\Cadastro\Paises.cshtml" />
+    <Content Include="Views\Cadastro\Produtos.cshtml" />
+    <Content Include="Views\Cadastro\UnidadeMedida.cshtml" />
+    <Content Include="Views\Cadastro\LocaisArmazenamento.cshtml" />
+    <Content Include="Views\Cadastro\Usuarios.cshtml" />
+    <Content Include="Views\Grafico\PerdaMes.cshtml" />
+    <Content Include="Views\Grafico\EntradaSaidaMes.cshtml" />
+    <Content Include="Views\Operacao\EntradaProduto.cshtml" />
+    <Content Include="Views\Operacao\SaidaProduto.cshtml" />
+    <Content Include="Views\Operacao\Inventario.cshtml" />
+    <Content Include="Views\Operacao\LancPerdaProduto.cshtml" />
+    <Content Include="Views\Relatorio\Posicaoestoque.cshtml" />
+    <Content Include="Views\Relatorio\Ressuprimento.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
